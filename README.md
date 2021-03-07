@@ -1,4 +1,4 @@
-# Emotion Tracer with Emilie
+# Emotion Tracer with Ellie
 
 ## Inspiration
 A lot of students do not stay motivated or remain uninterested during the class. It is due to a lack of interest and also depends on the teaching style of the faculty. We wanted to resolve that issue by creating a platform that will resolve this issue.
