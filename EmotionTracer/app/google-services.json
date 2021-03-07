@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390981331793",
+    "project_id": "amiable-way-305606",
+    "storage_bucket": "amiable-way-305606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390981331793:android:895568fde4d4a3fcb24170",
+        "android_client_info": {
+          "package_name": "com.example.emotiontracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390981331793-c918mn6jsc62r9hcietnh6jvnm2k1nbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhaxK001j-QMsy9mO3YYWD_McXGPzyK3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390981331793-c918mn6jsc62r9hcietnh6jvnm2k1nbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
