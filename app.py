@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from flask import Flask, render_template, request
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-chatbot = ChatBot('Ron Obvious')
+chatbot=ChatBot("Ellie",storage_adapter="chatterbot.storage.MongoDatabaseAdapter")
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
 
