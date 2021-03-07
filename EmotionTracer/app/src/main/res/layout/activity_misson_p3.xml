@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissonP1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="342dp"
+        android:layout_height="279dp"
+        android:layout_marginBottom="28dp"
+        android:alpha="0.8"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="We will use school cameras to tract the emotions of the students and find out the students who are sad. We will have a database to recognize each student behavior over a long period of time. If the students has an average of sad emotion over a long period of time (a month or more) our system could suggest the school counselor about this and will help them understand the students’ problems.   Our Model tracks the mood of the students in each subject’s  class and the model analyses the data and give an insight in the student’s mood in their class and could suggest to add some fun activities if the average mood the class is not so good which will help the teachers to understand the students behaviour in their class and improve accordingly. "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/lavmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="367dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="14dp"
+        android:alpha="0.8"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Emotion Tracker using Face Detection and Machine Learning "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="23dp"
+        android:alpha="0.8"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="OUR SOLUTION"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lavmenu"
+        android:layout_width="217dp"
+        android:layout_height="191dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/solution" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

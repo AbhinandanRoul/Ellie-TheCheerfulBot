@@ -30,5 +30,21 @@ public class MissonP1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnf2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext() , MissonP3.class);
+                startActivity(intent);
+            }
+        });
+
+        btnf3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext() , MissonP2.class);
+                startActivity(intent);
+            }
+        });
     }
 }

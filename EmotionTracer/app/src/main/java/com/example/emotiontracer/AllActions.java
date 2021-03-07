@@ -6,6 +6,7 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class AllActions extends AppCompatActivity {
 
@@ -63,6 +64,15 @@ public class AllActions extends AppCompatActivity {
                 b.putString("emotion" , "neutral");
                 Intent intent = new Intent(getApplicationContext(), ShowArticles.class);
                 intent.putExtras(b);
+                startActivity(intent);
+            }
+        });
+
+        Button btn = findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext() , BotAct.class);
                 startActivity(intent);
             }
         });

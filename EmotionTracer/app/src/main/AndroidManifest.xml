@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/smile_pnh_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmotionTracer">
-        <activity android:name=".MissonP2"></activity>
+        <activity android:name=".BotAct"></activity>
+        <activity android:name=".MissonP3" />
+        <activity android:name=".MissonP2" />
         <activity android:name=".MissonP1" />
         <activity android:name=".FullArticle" />
         <activity android:name=".ShowArticles" />
